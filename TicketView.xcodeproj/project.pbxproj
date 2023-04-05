@@ -13,6 +13,8 @@
 		55154E7629DD743F00C59653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55154E7429DD743F00C59653 /* Main.storyboard */; };
 		55154E7829DD743F00C59653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55154E7729DD743F00C59653 /* Assets.xcassets */; };
 		55154E7B29DD743F00C59653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55154E7929DD743F00C59653 /* LaunchScreen.storyboard */; };
+		55154E8429DD744C00C59653 /* TornTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55154E8229DD744C00C59653 /* TornTicketView.swift */; };
+		55154E8529DD744C00C59653 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55154E8329DD744C00C59653 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55154E7729DD743F00C59653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55154E7A29DD743F00C59653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55154E7C29DD743F00C59653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55154E8229DD744C00C59653 /* TornTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TornTicketView.swift; sourceTree = "<group>"; };
+		55154E8329DD744C00C59653 /* TicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				55154E6E29DD743F00C59653 /* AppDelegate.swift */,
 				55154E7029DD743F00C59653 /* SceneDelegate.swift */,
 				55154E7229DD743F00C59653 /* ViewController.swift */,
+				55154E8329DD744C00C59653 /* TicketView.swift */,
+				55154E8229DD744C00C59653 /* TornTicketView.swift */,
 				55154E7429DD743F00C59653 /* Main.storyboard */,
 				55154E7729DD743F00C59653 /* Assets.xcassets */,
 				55154E7929DD743F00C59653 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55154E7329DD743F00C59653 /* ViewController.swift in Sources */,
+				55154E8529DD744C00C59653 /* TicketView.swift in Sources */,
+				55154E8429DD744C00C59653 /* TornTicketView.swift in Sources */,
 				55154E6F29DD743F00C59653 /* AppDelegate.swift in Sources */,
 				55154E7129DD743F00C59653 /* SceneDelegate.swift in Sources */,
 			);

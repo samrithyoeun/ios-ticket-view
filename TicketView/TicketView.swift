@@ -64,14 +64,6 @@ class TicketView: UIView {
 
 
 extension UIView {
-    func setShadowOffset() {
-        layer.shadowRadius = 4
-        layer.shadowColor = UIColor.gray.cgColor
-        layer.shadowOffset = CGSize(width: 0, height: 4)
-        layer.shadowOpacity = 0.5
-        layer.masksToBounds = false
-        clipsToBounds = false
-    }
     
     func drawDashLine(_ ticketShapeLayer: CAShapeLayer, paddingX: CGFloat, y: CGFloat) {
         let lineDashPatterns: [[NSNumber]?]  = [[4, 4, 4, 4]]
