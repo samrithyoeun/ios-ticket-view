@@ -1,4 +1,4 @@
 # ios-ticket-view
 
 
-![screenshot](Screenshot 2023-04-05 at 11.45.59.png "screenshot")
+![screenshot](https://github.com/samrithyoeun/ios-ticket-view/blob/master/Screenshot%202023-04-05%20at%2011.45.59.png "screenshot")
